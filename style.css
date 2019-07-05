@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+#barra {
+    height: 8px;
+    width: 100%;
+    background-color: #2CBF60;
+}
+
+header {
+    background-image: url("banner.png");
+    width: auto;
+    height: 510px;
+    background-size: cover;
+    display: flex;
+}
+
+#titulo {
+    height: 510px;
+    width: 50%;
+    display: flex;
+}
+
+#titulo p {
+    align-items: center;
+}
+
+#hand {
+    display: flex;
+    width: 50%;
+    height: 510px;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+#hand img {
+    width: 382px;
+}

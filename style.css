@@ -81,3 +81,151 @@ header {
 #hand img {
     width: 382px;
 }
+
+#icone {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+#icone img {
+    background-color: #2CBF60;
+    border-radius: 50px;
+    padding: 17px;
+    position: relative;
+    top: 1.7vh;
+}
+
+#carac {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+#carac h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    position: relative;
+    left: 1vw;
+}
+
+#ipsum {
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ipsum h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    color: rgb(160, 158, 158);
+    bottom: 2vh;
+}
+
+#ipsum h1:nth-child(1) {
+    position: relative;
+    left: 3vw;
+}
+
+#ipsum h1:nth-child(2) {
+    position: relative;
+    left: 1.5vw;
+}
+
+#ipsum h1:nth-child(3) {
+    position: relative;
+    right: 1.7vw;
+}
+
+#notificado {
+    width: 100%;
+    height: 366px;
+    background-color: #e3e3e3;
+    display: flex;
+}
+
+#not {
+    width: 50%;
+    height: 366px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 19vw;
+    top: 2.8vh;
+}
+
+#not h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+#input {
+    width: auto;
+    height: 200px;
+}
+
+#input input {
+    width: 27%;
+    height: 20%;
+    border-radius: 15px 0px 0px 15px
+}
+
+#input button {
+    background-color: #2CBF60;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 12.5%;
+    height: 24%;
+    border-radius: 0px 15px 15px 0px;
+    position: relative;
+    right: 0.3vw;
+    top: 1px;
+}
+
+#video {
+    width: 50%;
+    height: 366px;
+    display: flex;
+    align-items: center;
+}
+
+#video iframe {
+    border-radius: 10px;
+    position: relative;
+    left: 10vw;
+}
+
+::-webkit-input-placeholder {
+    color: gray;
+    font-size: 15px;
+    padding-left: 14px;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: gray;
+    font-size: 15px;
+    padding-left: 14px;
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: gray;
+    font-size: 15px;
+    padding-left: 14px;
+ }
+ 
+ :-ms-input-placeholder {  
+    color: gray;
+    font-size: 15px;
+    padding-left: 14px;  
+ }

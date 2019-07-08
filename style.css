@@ -2,6 +2,11 @@ body {
     margin: 0;
 }
 
+span {
+    color: #2CBF60;
+    font-size: 45px;
+}
+
 #barra {
     height: 8px;
     width: 100%;
@@ -20,10 +25,44 @@ header {
     height: 510px;
     width: 50%;
     display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-#titulo p {
-    align-items: center;
+#notify {
+
+}
+
+#texto {
+    
+}
+
+
+#titulo ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#titulo li {
+    padding: 5px;
+}
+
+#titulo li img{
+    padding: 11px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 60px;
+}
+
+#texto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21.5px;
+}
+
+#notify {
+    font-size: 49px;
+    font-family: 'Pacifico', cursive;
 }
 
 #hand {

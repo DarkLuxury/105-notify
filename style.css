@@ -32,17 +32,22 @@ header {
 }
 
 #notify {
-
+    position: relative;
+    left: 3.1vw;
 }
 
 #texto {
-    
+    position: relative;
+    left: 9.6vw;
+    bottom: 3.9vh
 }
-
 
 #titulo ul {
     display: flex;
     list-style-type: none;
+    position: relative;
+    bottom: 6vh;
+    left: 2.7vw;
 }
 
 #titulo li {
